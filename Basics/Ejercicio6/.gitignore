@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+# === Android Studio / IntelliJ ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+
+# === Gradle ===
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.properties
+
+# === Local configuration ===
+local.properties
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Log/Backup Files ===
+*.log
+*.bak
+*.tmp
+
+# === APKs / outputs ===
+*.apk
+*.ap_
+*.aab
+output.json
+
+# === Misc ===
+captures/
+.externalNativeBuild/
+
+# === Android Studio 3.1+ ===
+.cxx/
+
+# === Node/npm if included ===
+node_modules/
